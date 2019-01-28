@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TriviaGame</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/triviaGame.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>TRIVIA QUIZ GAME</h1>
+    </header>
+    <div class="container">
+        <div class="spacers">
+            <button class="btn btn-danger" id="startButton">START</button>
+
+            <div id="timeLeft"></div>
+            <div id="crntQuestion"></div>
+            <div class="question"></div>
+            <div class='answerChoices'></div>
+
+            <div id="messageText"></div>
+            <div id="realAnswer"></div>
+
+            <div id="lastMessage"></div>
+            <div id="correctGuess"></div>
+            <div id="incorrectGuess"></div>
+            <div id="didntAnswer"></div>
+            <div id="strtOver"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
